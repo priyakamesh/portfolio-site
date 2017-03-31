@@ -1,19 +1,57 @@
 body {
   background-color: #efefef;
 }
+h5 {
+  font-family: 'Spirax', cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
 .margin {
   background-color: #0d47a1;
   padding: 10px 100px 50px 50px;
+  font-family: 'Fjalla+One';
 }
-
+.mainImg {
+  width: 200px;
+  height: 200px;
+}
 .size{
   width: 100px;
-  height: 200px;
+  height: 150px;
 }
 
 .color{
-  background-color: #0d47a1;
+  background-color: #1976d2;
 }
 .text{
     color: white;
 }
+.sectional {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 100px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #1976d2; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+.sideNav{
+  padding: 30px 0 0 100px;
+}
+/*#contactDetails{
+  font-style: 'Pacifico';
+}*/
