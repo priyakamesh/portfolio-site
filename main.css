@@ -1,25 +1,35 @@
 body {
-  background-color: #efefef;
+  background-color: #ffe0b2;
 }
-h5 {
+h5{
   font-family: 'Spirax', cursive;
   font-weight: bold;
   font-size: 50px;
 }
+h6 {
+  font-family: 'Spirax', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
 .margin {
   background-color: #0d47a1;
-  padding: 10px 100px 50px 50px;
+  padding: 40px 100px 50px 50px;
   font-family: 'Fjalla+One';
 }
 .mainImg {
   width: 200px;
-  height: 200px;
+  height: 300px;
 }
 .size{
   width: 100px;
-  height: 150px;
+  height: 200px;
 }
-
+.smallSize{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
 .color{
   background-color: #1976d2;
 }
@@ -52,6 +62,13 @@ h5 {
 .sideNav{
   padding: 30px 0 0 100px;
 }
-/*#contactDetails{
-  font-style: 'Pacifico';
-}*/
+#contactDetails{
+  font-size: 20px;
+}
+a {
+    color: black;
+  }
+a:hover {
+    text-decoration: underline;
+    /*background-color: lightgreen;*/
+}
