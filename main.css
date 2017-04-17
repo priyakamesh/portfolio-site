@@ -1,25 +1,31 @@
 body {
   background-color: #efefef;
 }
-h5 {
-  font-family: 'Spirax', cursive;
+h6 {
+  font-family: 'Montserrat', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 .margin {
-  background-color: #0d47a1;
-  padding: 10px 100px 50px 50px;
-  font-family: 'Fjalla+One';
+  background-color: #616161;
+  padding: 40px 100px 50px 50px;
+  font-family: 'Montserrat';
 }
 .mainImg {
   width: 200px;
-  height: 200px;
+  height: 300px;
 }
 .size{
   width: 100px;
-  height: 150px;
+  height: 200px;
 }
-
+.smallSize{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
 .color{
   background-color: #1976d2;
 }
@@ -33,6 +39,7 @@ h5 {
   padding-left: 50px;
   padding-top: 40px;
   padding-bottom: 50px;
+  font-style: 'Montserrat'
 }
 
 #myBtn {
@@ -52,6 +59,22 @@ h5 {
 .sideNav{
   padding: 30px 0 0 100px;
 }
-/*#contactDetails{
-  font-style: 'Pacifico';
-}*/
+#contactDetails{
+  font-size: 20px;
+}
+a {
+    color: black;
+  }
+  .hovery {
+    color: black;
+    margin-right: 20px;
+    /*background-color: #616161;*/
+  }
+a:hover {
+    text-decoration: underline;
+    /*background-color: #616161;*/
+
+}
+img.hover:hover{
+  border: 2px solid black;
+}
