@@ -1,20 +1,16 @@
 body {
-  background-color: #ffe0b2;
-}
-h5{
-  font-family: 'Spirax', cursive;
-  font-weight: bold;
-  font-size: 50px;
+  background-color: #efefef;
 }
 h6 {
-  font-family: 'Spirax', cursive;
+  font-family: 'Montserrat', cursive;
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 .margin {
-  background-color: #0d47a1;
+  background-color: #616161;
   padding: 40px 100px 50px 50px;
-  font-family: 'Fjalla+One';
+  font-family: 'Montserrat';
 }
 .mainImg {
   width: 200px;
@@ -43,6 +39,7 @@ h6 {
   padding-left: 50px;
   padding-top: 40px;
   padding-bottom: 50px;
+  font-style: 'Montserrat'
 }
 
 #myBtn {
@@ -68,7 +65,16 @@ h6 {
 a {
     color: black;
   }
+  .hovery {
+    color: black;
+    margin-right: 20px;
+    /*background-color: #616161;*/
+  }
 a:hover {
     text-decoration: underline;
-    /*background-color: lightgreen;*/
+    /*background-color: #616161;*/
+
+}
+img.hover:hover{
+  border: 2px solid black;
 }
