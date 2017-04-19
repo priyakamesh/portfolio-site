@@ -8,7 +8,7 @@ h6 {
   margin-bottom: 30px;
 }
 .margin {
-  background-color: #616161;
+  background-color: #0d47a1;
   padding: 40px 100px 50px 50px;
   font-family: 'Montserrat';
 }
@@ -77,4 +77,20 @@ a:hover {
 }
 img.hover:hover{
   border: 2px solid black;
+}
+#parallax {
+  border: 1px solid blue;
+  margin: 200px 150px 0 150px;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
