@@ -1,4 +1,4 @@
-body {
+body .backColor {
   background-color: #efefef;
 }
 h6 {
@@ -12,9 +12,24 @@ h6 {
   padding: 40px 100px 50px 50px;
   font-family: 'Montserrat';
 }
+.header {
+  font-size: 30px;
+  font-weight: lighter;
+}
 .mainImg {
-  width: 200px;
+  width: 100px;
   height: 300px;
+  /*border: 2px solid grey;*/
+}
+.projectImg {
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+}
+.modalImg {
+  width: 350px;
+  height: 500px;
+  margin-top: 40px;
 }
 .size{
   width: 100px;
@@ -65,11 +80,11 @@ h6 {
 a {
     color: black;
   }
-  .hovery {
-    color: black;
-    margin-right: 20px;
-    /*background-color: #616161;*/
-  }
+.hovery {
+  color: black;
+  margin-right: 20px;
+  /*background-color: #616161;*/
+}
 a:hover {
     text-decoration: underline;
     /*background-color: #616161;*/
@@ -82,15 +97,5 @@ img.hover:hover{
   border: 1px solid blue;
   margin: 200px 150px 0 150px;
 }
-
-i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
-
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
+/*.modal { width: 75% !important ; max-height: 100% !important }*/
+.modal { width: 75% !important ; height: 300% !important ; overflow-y: hidden !important ;}
