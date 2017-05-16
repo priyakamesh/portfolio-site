@@ -1,3 +1,6 @@
+$('.carousel').carousel({dist:0,
+            shift:0,
+            padding:20,});
 $('.parallax').parallax();
 $('.button-collapse').sideNav({
      menuWidth: 300, // Default is 300
